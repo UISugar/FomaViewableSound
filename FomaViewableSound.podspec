@@ -8,15 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FomaViewableSound'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FomaViewableSound.'
+  s.version          = '0.1.1'
+  s.summary          = '이것은 소리를 풍경으로 표현한 라이브러리입니다!'
   s.homepage         = 'https://github.com/fomagran/FomaViewableSound'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.swift_versions = '5.0'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fomagran' => 'fomagran6@naver.com' }
   s.source           = { :git => 'https://github.com/fomagran/FomaViewableSound.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-
   s.source_files = 'FomaViewableSound/Classes/**/*'
   
 end
