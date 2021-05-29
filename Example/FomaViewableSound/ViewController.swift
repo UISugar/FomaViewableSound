@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         Foma().sayHello(name:"영훈")
         Foma().updateTest(isCompleted: true)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

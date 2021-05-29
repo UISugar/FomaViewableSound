@@ -47,8 +47,6 @@ public class GlowingButton: UIButton {
             layerAnimation.toValue = maxGlowSize
             layerAnimation.isAdditive = false
             layerAnimation.duration = CFTimeInterval(animDuration/2)
-
-            layerAnimation.fillMode = CAMediaTimingFillMode.forwards
             layerAnimation.isRemovedOnCompletion = false
             self.layer.add(layerAnimation, forKey: "addGlowing")
         }
@@ -66,7 +64,6 @@ public class GlowingButton: UIButton {
             layerAnimation.toValue = minGlowSize
             layerAnimation.isAdditive = false
             layerAnimation.duration = CFTimeInterval(animDuration/2)
-            layerAnimation.fillMode = CAMediaTimingFillMode.forwards
             layerAnimation.isRemovedOnCompletion = false
             self.layer.add(layerAnimation, forKey: "removeGlowing")
         }
@@ -80,7 +77,6 @@ public class GlowingButton: UIButton {
             layerAnimation.toValue = minGlowSize
             layerAnimation.isAdditive = false
             layerAnimation.duration = CFTimeInterval(animDuration/2)
-            layerAnimation.fillMode = CAMediaTimingFillMode.forwards
             layerAnimation.isRemovedOnCompletion = false
             self.layer.add(layerAnimation, forKey: "removeGlowing")
         }
@@ -110,7 +106,6 @@ public class GlowingButton: UIButton {
         layerAnimation.autoreverses = true
         layerAnimation.isAdditive = false
         layerAnimation.duration = CFTimeInterval(animDuration/2)
-        layerAnimation.fillMode = CAMediaTimingFillMode.forwards
         layerAnimation.isRemovedOnCompletion = false
         layerAnimation.repeatCount = .infinity
         self.layer.add(layerAnimation, forKey: "glowingAnimation")
