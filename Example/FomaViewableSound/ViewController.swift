@@ -13,8 +13,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        Foma().sayHello(name:"영훈")
-        Foma().updateTest(isCompleted: true)
+        
+        let foma = FomaViewableSound()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            foma.show(on: self.view, in: self)
+        }
+        
         
         
     }

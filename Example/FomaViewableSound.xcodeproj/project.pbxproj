@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042595D92663A3EC000A8179 /* 기다린 만큼 더.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042595D82663A3EC000A8179 /* 기다린 만큼 더.mp3 */; };
 		467F6428002C73A4525ABD4B /* Pods_FomaViewableSound_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B14DCFECD1F699149E2987 /* Pods_FomaViewableSound_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,8 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		396D50EB0FD0446DEFFF0B78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		46733656F2FED5D2A4D8F13A /* FomaViewableSound.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FomaViewableSound.podspec; path = ../FomaViewableSound.podspec; sourceTree = "<group>"; };
+		042595D82663A3EC000A8179 /* 기다린 만큼 더.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "기다린 만큼 더.mp3"; sourceTree = "<group>"; };
+		396D50EB0FD0446DEFFF0B78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		46733656F2FED5D2A4D8F13A /* FomaViewableSound.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FomaViewableSound.podspec; path = ../FomaViewableSound.podspec; sourceTree = "<group>"; };
 		4916E57D4D25753CEDCC7768 /* Pods-FomaViewableSound_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FomaViewableSound_Example.debug.xcconfig"; path = "Target Support Files/Pods-FomaViewableSound_Example/Pods-FomaViewableSound_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5CAA9D08954AEDA8A09648BE /* Pods_FomaViewableSound_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FomaViewableSound_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* FomaViewableSound_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FomaViewableSound_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +47,7 @@
 		7DFC0933F654B21C6CFCBF5D /* Pods-FomaViewableSound_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FomaViewableSound_Tests.release.xcconfig"; path = "Target Support Files/Pods-FomaViewableSound_Tests/Pods-FomaViewableSound_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		97B14DCFECD1F699149E2987 /* Pods_FomaViewableSound_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FomaViewableSound_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02BC70C318CF762258B4492 /* Pods-FomaViewableSound_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FomaViewableSound_Example.release.xcconfig"; path = "Target Support Files/Pods-FomaViewableSound_Example/Pods-FomaViewableSound_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B52BAE40ED364F79A320453B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B52BAE40ED364F79A320453B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E8E884E720AC87B86314680C /* Pods-FomaViewableSound_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FomaViewableSound_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FomaViewableSound_Tests/Pods-FomaViewableSound_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				042595D82663A3EC000A8179 /* 기다린 만큼 더.mp3 */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for FomaViewableSound";
@@ -147,7 +150,6 @@
 				E8E884E720AC87B86314680C /* Pods-FomaViewableSound_Tests.debug.xcconfig */,
 				7DFC0933F654B21C6CFCBF5D /* Pods-FomaViewableSound_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -248,6 +251,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				042595D92663A3EC000A8179 /* 기다린 만큼 더.mp3 in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
