@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FomaViewableSound'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = '이것은 소리를 풍경으로 표현한 라이브러리입니다!'
   s.homepage         = 'https://github.com/fomagran/FomaViewableSound'
   s.swift_versions = '5.0'
@@ -17,5 +17,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/fomagran/FomaViewableSound.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'FomaViewableSound/Classes/**/*'
-  
+  s.resource_bundles = {
+      'FomaViewableSound' => ['FomaViewableSound/Classes/**/*']
+   }
 end
