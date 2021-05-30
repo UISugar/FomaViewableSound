@@ -1,4 +1,4 @@
-# FomaViewableSound 👟
+# 👟 FomaViewableSound 👟
 
 [![CI Status](https://img.shields.io/travis/fomagran/FomaViewableSound.svg?style=flat)](https://travis-ci.org/fomagran/FomaViewableSound)  
 
@@ -12,7 +12,6 @@
 
 [![Author](https://img.shields.io/badge/Author-Fomagran-green)](https://cocoapods.org/pods/FomaViewableSound)   
 
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -20,6 +19,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 <img src="https://user-images.githubusercontent.com/47676921/120105698-0732f500-c195-11eb-9cf5-4bab900867ce.gif"  width="200" height="400">
 
 ## Requirements
+
+* iOS 13
+* Xcode 12
+* Swift 5.0
 
 ## Installation
 
