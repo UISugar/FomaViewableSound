@@ -12,11 +12,35 @@
 
 [![Author](https://img.shields.io/badge/Author-Fomagran-green)](https://cocoapods.org/pods/FomaViewableSound)   
 
-## Example
+## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+First you import 'FomaViewableSound'   
 
-<img src="https://user-images.githubusercontent.com/47676921/120105698-0732f500-c195-11eb-9cf5-4bab900867ce.gif"  width="200" height="400">
+```swift
+import 'FomaViewableSound'
+```
+
+and you make FomaViewableSound instance   
+
+```
+let fomaViewableSound = FomaViewableSound()
+```
+
+and present on the view controller you want to   
+
+```swift
+ @IBAction func tapShowButton(_ sender: Any) {
+ 
+//if you don't have building images
+fomaViewableSound.show(in: self, songTitle: "song title", buildingImages: nil, gradientColor: .systemOrange, backgroundColor: .black)
+
+//or if you have building images
+fomaViewableSound.show(in: self, songTitle: "song title", buildingImages: images, gradientColor: .systemOrange, backgroundColor: .black)
+
+}
+```
+
+<img src="https://user-images.githubusercontent.com/47676921/120883516-9d916b80-c618-11eb-9948-5766c768a870.gif"  width="200" height="400">
 
 ## Requirements
 
