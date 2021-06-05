@@ -5,7 +5,8 @@
 //  Created by Fomagran on 2021/05/30.
 //
 
-import Foundation
+import UIKit
+import AVFoundation
 
 @available(iOS 13.0, *)
 public class FomaViewableSound {
@@ -22,8 +23,15 @@ public class FomaViewableSound {
         return UIStoryboard(name: "FomaViewableSound", bundle: FomaViewableSound.bundle).instantiateViewController(withIdentifier: "FomaViewableSoundViewController") as! FomaViewableSoundViewController
     }()
     
-    public func show(on: UIView, in parent: UIViewController) {
-        parent.present(vc, animated: true, completion: nil)
+    public func show(in parent: UIViewController,songTitle:String,buildingImages:[UIImage],gradientColor:UIColor,backgroundColor:UIColor) {
+        vc.songTitle = songTitle
+        vc.buildingImages = buildingImages
+        vc.gradinetColor = gradientColor
+        vc.backgroundColor = backgroundColor
+        
+        DispatchQueue.main.async {
+            parent.present(self.vc, animated: true, completion: nil)
+        }
+        
     }
-
 }

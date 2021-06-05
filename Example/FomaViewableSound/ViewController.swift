@@ -15,11 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let foma = FomaViewableSound()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            foma.show(on: self.view, in: self)
-        }
-        
-        
+        let images = [ #imageLiteral(resourceName: "orangeBuilding5"),#imageLiteral(resourceName: "orangeBuilding4"),#imageLiteral(resourceName: "orangeBuilding2"),#imageLiteral(resourceName: "orangeBuilding3"),#imageLiteral(resourceName: "orangeBuilding1")]
+ 
+        foma.show(in: self, songTitle: "기다린 만큼 더", buildingImages: images, gradientColor: .systemOrange, backgroundColor: .black)
         
     }
 

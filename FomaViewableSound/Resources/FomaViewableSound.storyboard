@@ -31,16 +31,16 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BuildingCollectionViewCell" id="Qu7-5t-vER" customClass="BuildingCollectionViewCell" customModule="WaterReflectionSound" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BuildingCollectionViewCell" id="Qu7-5t-vER" customClass="BuildingCollectionViewCell" customModule="FomaViewableSound" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="80" width="189" height="240"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="eNv-vs-5K8">
                                             <rect key="frame" x="0.0" y="0.0" width="189" height="240"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="building1" translatesAutoresizingMaskIntoConstraints="NO" id="LEe-Me-hrZ">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LEe-Me-hrZ">
                                                     <rect key="frame" x="0.0" y="0.0" width="188" height="119.5"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </imageView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qyr-G0-QQJ">
                                                     <rect key="frame" x="0.0" y="120.5" width="189" height="79"/>
@@ -69,7 +69,7 @@
                                                 <constraint firstItem="lM0-VK-HtH" firstAttribute="centerY" secondItem="eNv-vs-5K8" secondAttribute="centerY" id="uMi-h7-r06"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="189" height="240"/>
                                         <connections>
                                             <outlet property="buildingImageView" destination="LEe-Me-hrZ" id="90X-bT-7HZ"/>
@@ -82,7 +82,7 @@
                                     <outlet property="delegate" destination="cIz-Of-nOO" id="iWV-uq-esD"/>
                                 </connections>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="In2-4A-VTn" customClass="GlowingButton" customModule="WaterReflectionSound" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="In2-4A-VTn" customClass="GlowingButton" customModule="FomaViewableSound" customModuleProvider="target">
                                 <rect key="frame" x="309" y="89" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="2Es-OR-JlT"/>
@@ -114,9 +114,9 @@
                                     <action selector="tapSunButton:" destination="cIz-Of-nOO" eventType="touchUpInside" id="seM-Vs-8l3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FomaCloud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Deu-YI-4jF">
-                                <rect key="frame" x="30" y="89" width="249" height="60"/>
-                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FomaViewableSound" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Deu-YI-4jF">
+                                <rect key="frame" x="15" y="101.5" width="279" height="35"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                 <color key="textColor" systemColor="systemOrangeColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -125,7 +125,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="In2-4A-VTn" firstAttribute="top" secondItem="Egn-g3-VVQ" secondAttribute="top" constant="45" id="2U3-ym-vGV"/>
-                            <constraint firstItem="LyA-ft-jLP" firstAttribute="leading" secondItem="Deu-YI-4jF" secondAttribute="trailing" constant="30" id="6F4-3s-5q5"/>
+                            <constraint firstItem="LyA-ft-jLP" firstAttribute="leading" secondItem="Deu-YI-4jF" secondAttribute="trailing" constant="15" id="6F4-3s-5q5"/>
                             <constraint firstItem="LyA-ft-jLP" firstAttribute="trailing" secondItem="In2-4A-VTn" secondAttribute="trailing" id="B0n-1Y-S1o"/>
                             <constraint firstItem="oFW-2s-Dpf" firstAttribute="leading" secondItem="Egn-g3-VVQ" secondAttribute="leading" id="Gub-FD-BTA"/>
                             <constraint firstItem="Egn-g3-VVQ" firstAttribute="trailing" secondItem="In2-4A-VTn" secondAttribute="trailing" constant="45" id="JHu-ev-aQ6"/>
@@ -133,7 +133,7 @@
                             <constraint firstItem="oFW-2s-Dpf" firstAttribute="centerY" secondItem="Egn-g3-VVQ" secondAttribute="centerY" id="T4h-fS-t8r"/>
                             <constraint firstItem="Egn-g3-VVQ" firstAttribute="trailing" secondItem="oFW-2s-Dpf" secondAttribute="trailing" id="gAA-Ua-3hl"/>
                             <constraint firstItem="LyA-ft-jLP" firstAttribute="bottom" secondItem="In2-4A-VTn" secondAttribute="bottom" id="hxh-qs-7e9"/>
-                            <constraint firstItem="Deu-YI-4jF" firstAttribute="leading" secondItem="Egn-g3-VVQ" secondAttribute="leading" constant="30" id="m5p-aR-oOS"/>
+                            <constraint firstItem="Deu-YI-4jF" firstAttribute="leading" secondItem="Egn-g3-VVQ" secondAttribute="leading" constant="15" id="m5p-aR-oOS"/>
                             <constraint firstItem="LyA-ft-jLP" firstAttribute="leading" secondItem="In2-4A-VTn" secondAttribute="leading" id="t3x-1O-gVK"/>
                             <constraint firstItem="LyA-ft-jLP" firstAttribute="top" secondItem="In2-4A-VTn" secondAttribute="top" id="w7u-YO-YQU"/>
                         </constraints>
@@ -154,7 +154,6 @@
         </designable>
     </designables>
     <resources>
-        <image name="building1" width="170.66667175292969" height="170.66667175292969"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

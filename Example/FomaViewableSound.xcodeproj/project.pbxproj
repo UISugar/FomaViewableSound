@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		042595D82663A3EC000A8179 /* 기다린 만큼 더.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "기다린 만큼 더.mp3"; sourceTree = "<group>"; };
 		396D50EB0FD0446DEFFF0B78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		46733656F2FED5D2A4D8F13A /* FomaViewableSound.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FomaViewableSound.podspec; path = ../FomaViewableSound.podspec; sourceTree = "<group>"; };
+		46733656F2FED5D2A4D8F13A /* FomaViewableSound.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FomaViewableSound.podspec; path = ../FomaViewableSound.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4916E57D4D25753CEDCC7768 /* Pods-FomaViewableSound_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FomaViewableSound_Example.debug.xcconfig"; path = "Target Support Files/Pods-FomaViewableSound_Example/Pods-FomaViewableSound_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5CAA9D08954AEDA8A09648BE /* Pods_FomaViewableSound_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FomaViewableSound_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* FomaViewableSound_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FomaViewableSound_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,7 +39,7 @@
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../FomaViewableSound/Resources/Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* FomaViewableSound_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FomaViewableSound_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
