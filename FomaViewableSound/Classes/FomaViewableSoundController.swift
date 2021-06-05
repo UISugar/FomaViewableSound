@@ -66,7 +66,7 @@ public class FomaViewableSoundViewController: UIViewController {
         
         setSound()
         self.view.backgroundColor = backgroundColor
-        sunButton.backgroundColor = gradinetColor
+        sunButton.backgroundColor = .clear
         sunButton.glowColor = gradinetColor
         fomaViewableSoundLabel.textColor = gradinetColor
         

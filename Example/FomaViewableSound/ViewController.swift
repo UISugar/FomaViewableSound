@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 
     @IBAction func tapShowButton(_ sender: Any) {
         
-        let foma = FomaViewableSound()
+        let fomaViewableSound = FomaViewableSound()
         
         //if you have building images
     
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
         //or if you don't have building images
         
-        foma.show(in: self, songTitle: "기다린 만큼 더", buildingImages: nil, gradientColor: .systemOrange, backgroundColor: .black)
+        fomaViewableSound.show(in: self, songTitle: "기다린 만큼 더", buildingImages: nil, gradientColor: .systemOrange, backgroundColor: .black)
         
     }
     override func didReceiveMemoryWarning() {

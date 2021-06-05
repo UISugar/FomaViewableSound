@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FomaViewableSound'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = '이것은 소리를 풍경으로 표현한 라이브러리입니다!'
   s.homepage         = 'https://github.com/fomagran/FomaViewableSound'
   s.swift_versions = '5.0'
