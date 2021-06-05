@@ -14,13 +14,13 @@
 
 ## Usage
 
-First you import 'FomaViewableSound'   
+First you have to import 'FomaViewableSound'   
 
 ```swift
 import 'FomaViewableSound'
 ```
 
-and you make FomaViewableSound instance   
+and alseo you have to make FomaViewableSound instance   
 
 ```
 let fomaViewableSound = FomaViewableSound()
