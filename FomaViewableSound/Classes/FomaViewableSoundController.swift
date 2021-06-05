@@ -7,6 +7,7 @@ public class FomaViewableSoundViewController: UIViewController {
     
     //MARK:- IBOutlets
     
+    @IBOutlet weak var fomaViewableSoundLabel: UILabel!
     @IBOutlet weak var sunButton: GlowingButton!
     @IBOutlet weak var buildingCollection: UICollectionView!
     
@@ -62,8 +63,13 @@ public class FomaViewableSoundViewController: UIViewController {
     //MARK:- Helpers
     
     private func configure() {
-        self.view.backgroundColor = backgroundColor
+        
         setSound()
+        self.view.backgroundColor = backgroundColor
+        sunButton.backgroundColor = gradinetColor
+        sunButton.glowColor = gradinetColor
+        fomaViewableSoundLabel.textColor = gradinetColor
+        
     }
     
     private func setSound() {

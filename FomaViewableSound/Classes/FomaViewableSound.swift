@@ -23,7 +23,7 @@ public class FomaViewableSound {
         return UIStoryboard(name: "FomaViewableSound", bundle: FomaViewableSound.bundle).instantiateViewController(withIdentifier: "FomaViewableSoundViewController") as! FomaViewableSoundViewController
     }()
     
-    public func show(in parent: UIViewController,songTitle:String,buildingImages:[UIImage],gradientColor:UIColor,backgroundColor:UIColor) {
+    public func show(in parent: UIViewController,songTitle:String,buildingImages:[UIImage]?,gradientColor:UIColor,backgroundColor:UIColor) {
         vc.songTitle = songTitle
         vc.buildingImages = buildingImages
         vc.gradinetColor = gradientColor

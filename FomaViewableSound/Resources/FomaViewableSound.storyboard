@@ -140,6 +140,7 @@
                     </view>
                     <connections>
                         <outlet property="buildingCollection" destination="oFW-2s-Dpf" id="bUN-Oe-Bum"/>
+                        <outlet property="fomaViewableSoundLabel" destination="Deu-YI-4jF" id="9Xy-dT-WtU"/>
                         <outlet property="sunButton" destination="In2-4A-VTn" id="CLB-EZ-4Uz"/>
                     </connections>
                 </viewController>
