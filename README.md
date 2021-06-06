@@ -28,6 +28,8 @@ let fomaViewableSound = FomaViewableSound()
 
 and present on the view controller you want to   
 
+(recommend systemOrange for the gradintColor and black for the backgroundColor)
+
 ```swift
  @IBAction func tapShowButton(_ sender: Any) {
  
